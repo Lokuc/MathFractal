@@ -1,8 +1,5 @@
 import javax.swing.*;
-import java.awt.event.HierarchyBoundsListener;
-import java.awt.event.HierarchyEvent;
-import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
+
 
 public class Main {
 
