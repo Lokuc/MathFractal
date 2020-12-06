@@ -14,10 +14,10 @@ public class Main {
         okno.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         okno.setBounds(0,0,1200,700);
         //okno.setBounds(0,0,2000,1100);
-        Panel p = new Panel();
         Settings settings = new Settings();
         okno.add(settings);
+        settings.setBounds(0,0,okno.getWidth(),okno.getHeight()-16);
         //okno.setUndecorated(true);
-
+        okno.setVisible(true);
     }
 }

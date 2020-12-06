@@ -18,7 +18,7 @@ public class Panel extends JPanel {
         nums=new int[w][h];
         for(int i= 1;i<nums.length;i++){
             for(int j =1;j<nums[i].length;j++){
-                nums[i][j]= i*j;
+                nums[i][j]= (int) Math.abs(Math.cos(i*j)*70f);
                 if(colors[nums[i][j]]==null){
                     colors[nums[i][j]]=new Color(r.nextInt(255),r.nextInt(255),r.nextInt(255));
                 }
